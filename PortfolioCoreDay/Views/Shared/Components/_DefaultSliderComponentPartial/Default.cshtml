@@ -1,0 +1,17 @@
+﻿@model List<MyWork>
+<section id="hero" class="hero section dark-background">
+
+    <img src="/iportfolio-1.0.0/assets/img/istockphoto-1201405775-612x612.jpg" alt="" data-aos="fade-in" class="">
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Berk Demirbozan</h2>
+
+        <p>
+            İşlerim:
+            <span class="typed" data-typed-items="@string.Join(",", Model.Select(x => x.MyWorkName))"></span>
+            <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+        </p>
+
+    </div>
+
+</section>

@@ -1,0 +1,47 @@
+﻿@model Message
+@if (TempData["Success"] != null)
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: '@Html.Raw(TempData["Success"])',
+
+            showConfirmButton: true
+
+        });
+    </script>
+}
+<div class="col-lg-7">
+    <div class="contact-box">
+        <form action="/SendMessage/SendMessages/" class="custom-email-form" method="post" data-aos="fade-up" style="background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); data-aos-delay="200">
+            <div class="row gy-4">
+
+                <div class="col-md-6">
+                    <label for="name-field" class="pb-2">Ad Soyad</label>
+                    <input type="text" asp-for="NameSurname" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="email-field" class="pb-2">Mail</label>
+                    <input type="email" asp-for="Email" class="form-control" required="">
+                </div>
+
+                <div class="col-md-12">
+                    <label for="subject-field" class="pb-2">Konu</label>
+                    <input type="text" asp-for="Subject" class="form-control" required="">
+                </div>
+
+                <div class="col-md-12">
+                    <label for="message-field" class="pb-2">Mesaj</label>
+                    <textarea class="form-control" asp-for="MessageDetail" rows="10" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-outline-primary">Mesajı Gönder</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div><!-- End Contact Form -->

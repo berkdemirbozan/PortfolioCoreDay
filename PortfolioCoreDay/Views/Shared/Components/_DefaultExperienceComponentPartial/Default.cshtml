@@ -1,0 +1,27 @@
+﻿@model List<Experience>
+
+<div class="container section-title" data-aos="fade-up">
+    <h2>Deneyimlerim</h2>
+    <p> Çeşitli projelerde, .NET ve C# teknolojileriyle yazılım geliştirme deneyimi kazandım. Takım çalışmasına yatkın, verimli çözümler üreten ve sürekli gelişim odaklı bir mühendis olarak projelere değer kattım.</p>
+</div>
+
+<div class="container" data-aos="fade-up" data-aos-delay="200">
+
+    <div class="row skills-content skills-animation">
+
+        @foreach (var item in Model)
+        {
+            <div class="col-lg-6">
+
+                <div class="resume-item">
+                    <h4>@item.Title</h4>
+                    <h5>@item.ExperienceDate</h5>
+                    <p><em>@item.CompanyName</em></p>
+                    <p>@item.Description</p>
+                </div><!-- Edn Resume Item -->
+
+            </div>
+        }
+
+    </div>
+</div>

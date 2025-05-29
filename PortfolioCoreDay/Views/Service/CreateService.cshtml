@@ -1,0 +1,23 @@
+﻿@model PortfolioCoreDay.Entities.Service
+@{
+    ViewData["Title"] = "CreateService";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+<h1>Yeni Hizmet Girişi</h1>
+
+<form method="post">
+    <label>Başlık</label>
+    <input type="text" asp-for="Title" class="form-control" style="border:1px solid black">
+    <br />
+    <label>Açıklama</label>
+    <input type="text" asp-for="Description" class="form-control" style="border:1px solid black">
+    <br />
+    <label>Durum</label>
+    <input type="text" asp-for="Status" class="form-control" style="border:1px solid black">
+    <br />
+    <button class="btn btn-primary">Hizmeti Kaydet</button>
+</form>
+
+

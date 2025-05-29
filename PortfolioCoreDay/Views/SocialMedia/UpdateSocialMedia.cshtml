@@ -1,0 +1,23 @@
+﻿@model PortfolioCoreDay.Entities.SocialMedia
+@{
+    ViewData["Title"] = "UpdateSocialMedia";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+<h1>Sosyal Medya Hesap Bilgisi Güncelleme</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+    <label>Başlık</label>
+    <input type="text" asp-for="Title" class="form-control" style="border:1px solid black">
+    <br />
+    <label>İkon</label>
+    <input type="text" asp-for="Icon" class="form-control" style="border:1px solid black">
+    <br />
+    <label>Sosyal Medya Hesabı Bağlantısı</label>
+    <input type="text" asp-for="SocialMediaUrl" class="form-control" style="border:1px solid black">
+    <br />
+    <button class="btn btn-primary"> Güncelle</button>
+</form>
+

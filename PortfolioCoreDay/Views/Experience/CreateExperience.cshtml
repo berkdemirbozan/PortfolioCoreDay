@@ -1,0 +1,25 @@
+﻿@model PortfolioCoreDay.Entities.Experience
+@{
+    ViewData["Title"] = "CreateExperience";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h1>Yeni Deneyim Girişi</h1>
+
+<form method="post">
+    <label>Şirket</label>
+    <input type="text" asp-for="CompanyName" class="form-control" style="border:1px solid black">
+    <br />
+    <label>Ünvan</label>
+    <input type="text" asp-for="Title" class="form-control" style="border:1px solid black">
+    <br />
+    <label>Açıklama</label>
+    <input type="text" asp-for="Description" class="form-control" style="border:1px solid black">
+    <br />
+    <label>Tarih</label>
+    <input type="text" asp-for="ExperienceDate" class="form-control" style="border:1px solid black">
+    <br />
+    <button class="btn btn-primary">Deneyimi Kaydet</button>
+</form>
+
+
