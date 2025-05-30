@@ -48,3 +48,4 @@ Kullanıcıların portföylerini diledikleri gibi güncelleyebileceği, yöneteb
  ![Image](https://github.com/user-attachments/assets/eb04b320-f430-4a27-9446-a57aff5cc61f)
  ![Image](https://github.com/user-attachments/assets/ba2c2516-394c-44a4-ab40-fffe5ba02f8c)
  ![Image](https://github.com/user-attachments/assets/e5760f0d-b7c5-4f76-a22d-27cb629584bc)
+ ![Image](https://github.com/user-attachments/assets/ecccef24-788a-4812-8f9f-d99d6dd51d60)
