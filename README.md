@@ -1,0 +1,41 @@
+# 🚀 Dinamik Portföy Web Projesi (ASP.NET Core 9.0)
+
+## 📋 Proje Hakkında  
+Bu proje, ASP.NET Core kullanılarak oluşturulmuş dinamik bir portföy web uygulamasıdır.  
+Kullanıcıların içeriklerini kolayca yönetebileceği modern ve mobil uyumlu bir arayüz ile yönetim panelinden oluşur.
+
+## 🧩 Proje Bileşenleri  
+- 🌐 Kullanıcı Arayüzü (Modern, responsive tasarım)  
+- ⚙️ Yönetim Paneli (İçerik ekleme, düzenleme, silme)
+
+## 🎯 Amaç  
+Kullanıcıların portföylerini diledikleri gibi güncelleyebileceği, yönetebileceği ve takip edebileceği esnek, dinamik bir yapı sunmak.
+
+## 🔍 Yönetilen İçerik Alanları  
+- 👤 Hakkımda  
+- 💼 Deneyimler  
+- 🎨 Yetenekler  
+- 🎓 Eğitim  
+- 📂 Projeler (kategori filtreleme ile)  
+- 🛠️ Hizmetler (son 6 hizmet gösterimi)  
+- 📞 İletişim Bilgileri (adres, telefon, e-posta, harita)  
+- 🌐 Sosyal Medya Hesapları  
+- 📩 Mesaj Gönderme Sistemi (SweetAlert2 bildirimli)
+
+## 🌟 Öne Çıkan Özellikler  
+- 📊 10 adet dinamik istatistik kartı  
+- 📝 Admin panelinde içerik başlık kontrolü  
+- 🚫 Özelleştirilmiş 404 hata sayfası  
+- 🔔 SweetAlert2 ile kullanıcı dostu bildirimler  
+- 🔗 Veritabanı ile tam entegrasyon, modüler yapı
+
+## 💻 Teknolojiler  
+- ASP.NET Core 9.0  
+- Entity Framework Core (Code First + Migration)  
+- SQL Server  
+- Razor View & ViewComponent  
+- HTML, CSS, Bootstrap 5  
+- JavaScript  
+- SweetAlert2  
+- Katmanlı Mimari: Entity - DAL - UI  
+- SOLID & DRY prensipleri
