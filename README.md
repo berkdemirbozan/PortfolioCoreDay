@@ -41,4 +41,5 @@ Kullanıcıların portföylerini diledikleri gibi güncelleyebileceği, yöneteb
 - SOLID & DRY prensipleri
 
 ## 📸 Ekran SS'leri
-![Image](https://github.com/user-attachments/assets/ee147319-1b93-4bed-9038-17b38057daba)
+- ![Image](https://github.com/user-attachments/assets/ee147319-1b93-4bed-9038-17b38057daba)
+- ![Image](https://github.com/user-attachments/assets/aa46a21d-bf00-41e1-b51d-17d2710b8db5)
